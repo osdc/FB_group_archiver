@@ -26,10 +26,16 @@ import you db from this file
  
 To-Do
 ======
-It's posting Kippt links in ascendig order. Should be desecnding (Nrew links first and old links in last)
+ It's posting Kippt links in ascendig order. Should be desecnding (New links first and old links in last)
+ 
  use request packages insead of urllib2 
+ 
+ 
  see the date issue
+ 
  parse out the comments link
+ 
  give more meaningful description to kippt link
+  
  improve regex
  
