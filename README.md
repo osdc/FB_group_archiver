@@ -1,6 +1,6 @@
 FB_group_archiver-
 ==================
-Example OSdc
+Example Osdc
 <a href="https://kippt.com/rohit29/osdc-links">Kippt</a> links of <a href="https://www.facebook.com/groups/jiitlug/">OSDC FB GROUP</a> 
 
 
