@@ -1,0 +1,182 @@
+ERROR:root:2013-06-14 15:18:10.255556 global name 'hashtag' is not defined
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 15:19:14.284778 global name 'hashtag' is not defined
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 15:19:22.825066 global name 'hashtag' is not defined
+INFO:root:2013-06-14 15:19:22.825603 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&fields=id,from,message,link,name,description,likes,comments,created_time
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:root:2013-06-14 15:20:57.325031 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&fields=id,from,message,link,name,description,likes,comments,created_time
+INFO:root:2013-06-14 15:21:00.596204 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?fields=id,from,message,link,name,description,likes,comments,created_time&access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&limit=25&until=1371143377&__paging_token=326058510860193_326058664193511
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:root:2013-06-14 15:25:23.580875 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&fields=id,from,message,link,name,description,likes,comments,created_time
+INFO:root:2013-06-14 15:25:26.815963 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?fields=id,from,message,link,name,description,likes,comments,created_time&access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&limit=25&until=1371143377&__paging_token=326058510860193_326058664193511
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 15:28:56.967767 HTTP Error 404: NOT FOUND
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:root:2013-06-14 15:29:07.304948 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&fields=id,from,message,link,name,description,likes,comments,created_time
+INFO:root:2013-06-14 15:29:10.790037 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?fields=id,from,message,link,name,description,likes,comments,created_time&access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&limit=25&until=1371143377&__paging_token=326058510860193_326058664193511
+ERROR:root:2013-06-14 15:41:28.475902 'list' object has no attribute 'tolower'
+ERROR:root:2013-06-14 15:41:28.476928 'list' object has no attribute 'tolower'
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 15:42:20.177429 'list' object has no attribute 'lower'
+ERROR:root:2013-06-14 15:42:20.178345 'list' object has no attribute 'lower'
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:root:2013-06-14 15:43:29.185533 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&fields=id,from,message,link,name,description,likes,comments,created_time
+INFO:root:2013-06-14 15:43:32.408879 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?fields=id,from,message,link,name,description,likes,comments,created_time&access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&limit=25&until=1371143377&__paging_token=326058510860193_326058664193511
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 16:00:55.096865 kippt_post() takes exactly 3 arguments (2 given)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 16:00:59.987673 kippt_post() takes exactly 3 arguments (2 given)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 16:03:10.789782 kippt_post() takes exactly 3 arguments (2 given)
+INFO:root:2013-06-14 16:03:10.790455 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&fields=id,from,message,link,name,description,likes,comments,created_time
+INFO:root:2013-06-14 16:03:14.152675 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?fields=id,from,message,link,name,description,likes,comments,created_time&access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&limit=25&until=1371143377&__paging_token=326058510860193_326058664193511
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:root:2013-06-14 16:04:57.176735 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&fields=id,from,message,link,name,description,likes,comments,created_time
+INFO:root:2013-06-14 16:05:01.671827 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?fields=id,from,message,link,name,description,likes,comments,created_time&access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&limit=25&until=1371143377&__paging_token=326058510860193_326058664193511
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 16:07:37.620108 kippt_post() takes exactly 3 arguments (2 given)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 16:14:13.481206 link_store() takes exactly 3 arguments (4 given)
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 16:15:26.874117 local variable 'js_dump' referenced before assignment
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:root:2013-06-14 16:15:40.657508 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&fields=id,from,message,link,name,description,likes,comments,created_time
+INFO:root:2013-06-14 16:15:43.924359 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?fields=id,from,message,link,name,description,likes,comments,created_time&access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&limit=25&until=1371143377&__paging_token=326058510860193_326058664193511
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+ERROR:root:2013-06-14 16:18:58.910345 HTTP Error 404: NOT FOUND
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:root:2013-06-14 16:19:10.071369 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&fields=id,from,message,link,name,description,likes,comments,created_time
+INFO:root:2013-06-14 16:19:13.336580 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?fields=id,from,message,link,name,description,likes,comments,created_time&access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&limit=25&until=1371143377&__paging_token=326058510860193_326058664193511
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): kippt.com
+INFO:root:2013-06-14 16:22:52.883679 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&fields=id,from,message,link,name,description,likes,comments,created_time
+INFO:root:2013-06-14 16:22:57.230737 Archiving Complete for page: https://graph.facebook.com/326058510860193/feed?fields=id,from,message,link,name,description,likes,comments,created_time&access_token=545166188858847|U1mSC1OBJy51BOKGtUB-Qr43PqE&limit=25&until=1371159970&__paging_token=326058510860193_326223730843671
