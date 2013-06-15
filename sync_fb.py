@@ -121,7 +121,7 @@ class Archiver:
                            for url in urls:
                                # Build the JSON !! Don't change anythig here !! 
                                values = '{"url": "'+url+'" , "list": "'+list_uri+'", "notes":"'+description+'"}' 
-                               print url
+                               #print url
                                js_dump = self.kippt_post(values) 
                                self.link_store(js_dump, post_id)
                            
@@ -166,7 +166,7 @@ class Archiver:
                     self.hashtag = [i  for i in message.split() if i.startswith("#") ]
                     if not self.hashtag:
                       self.check_comment_hashtag(post,code,c_update) 
-                      self.hashtag.append ('Archive')
+                      self.hashtag.append ('archive')
                     #Strip down the hashes ! 
                     else:
                      for i in self.hashtag:  
