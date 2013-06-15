@@ -37,7 +37,7 @@ Issues
 
  see the date issue
  
- Currently not storing the cooment links, can be done easily
+ Currently not storing the comment links, can be done easily
 
  Currently not storing comments  
 
