@@ -8,7 +8,7 @@ import traceback
 from datetime import datetime
 import iso8601
 from kippt_module import *
-
+import time
 
 
 # To be done-- Date issue db is storing the current timestamp instead of fb post date !
@@ -26,7 +26,7 @@ class Archiver:
         init_config = self.init_config
 		#Initialize DB configuration
         passwd = init_config.get('db','password')
-        
+        self.update = 0
         self.db = MySQLdb.connect(user=init_config.get('db','user'), passwd=init_config.get('db','password'), db=init_config.get('db','name'))
         self.cursor = self.db.cursor()
         # Initialize  the error and info log
@@ -55,25 +55,41 @@ class Archiver:
                 updated_on = created_on_d.strftime('%Y-%m-%d %H:%M:%S')
 		author_name = post.get('from').get('name').encode('ascii','ignore').replace('"','')
                 author_id = post.get('from').get('id')
-
+                c_update = 0
+                 
                 #if(message == None) "Post only had a link !"
                 
                 if(message != None):
                     message = message.encode('ascii','ignore').replace('"','')
                     message_copy = message 
-                    comments_count = None
-                    likes_count = None
+                    comments_count = 0
+                    likes_count = 0
                     title = ''
-                    if(post.get('comments') != None):
-                        comments_count = post.get('comments').get('count')
+                                                           
+                    if ('comments' in post and post.get('comments').get('data') != None):
+                      for comment in post.get('comments').get('data'):
+                          comments_count+=1 
+                            
                     if(post.get('likes') != None):
                         likes_count = post.get('likes').get('count')
                     
-                    list_uri = self.process_hashtag(message)			   
+	            cursor.execute("SELECT comments_count from posts where posts.id = (%s)  and comments_count > 0 ",post_id)
+                    previous_comment = cursor.fetchone() 
+                    
+                    
                     cursor.execute("""SELECT InsertPost(%s, %s, %s, %s, %s, %s, %s, %s)""", (author_name, author_id, message, likes_count, comments_count, created_on, updated_on, post_id))
                     code = cursor.fetchone()
-
-                    # code[0] ==1 indicates no duplicate entry is post in DB , instaed Update the likes and comment count , see DB function structure
+                    
+                    #to check if the link in the old post has no hashtag and comment is updated with hashtag the link wil go in new\
+                    #hashtag 
+                    if(code[0] == 2):
+                      cursor.execute("SELECT comments_count from posts where posts.id = (%s)  and comments_count > 0 ",post_id)
+                      comment_update = cursor.fetchone()
+                      if(comment_update !=None):
+                       c_update = comment_update[0] - previous_comment[0]
+                    #to get the list_uri of kippt list   
+                    list_uri = self.process_hashtag(message,post,code[0],c_update)
+                    # code[0] ==1 indicates no duplicate entry is posted in DB , instead Update the likes and comment count , see DB function structure
                     if(code[0] == 1 and post.get('link') !=  None):
                         link = post.get('link').encode('ascii','ignore')
                         if(post.get('name') != None):
@@ -108,9 +124,31 @@ class Archiver:
                                print url
                                js_dump = self.kippt_post(values) 
                                self.link_store(js_dump, post_id)
+                           
                        except Exception, err:
                            logging.error(str(datetime.now())+" "+str(err))
                            traceback.print_exc(file = open(init_config.get('logging','errorlog'),'a'))
+
+                    #if the post already exists in Db but comment hashtag is updated make a list coressponding to hashtag     
+                    #in kippt  
+                    if (self.update == 1 and post.get('link')!=None and self.hashtag[0]!='archive' and code[0] == 2):
+                           try:
+                               if(post.get('description') != None):
+                                description = post.get('description').encode('ascii','ignore').replace('"','')
+
+                                description = desc_trim.sub(' ',description) + ' - ' + author_name
+                               else:
+                                description = '- ' + author_name
+  
+                               values = '{"url": "'+post.get('link')+'" , "list": "'+list_uri+'", "notes":"'+description+'"}' 
+                               #print self.hashtag 
+                               js_dump = self.kippt_post(values) 
+                               
+                           except Exception, err:
+                            print 'Some error'
+                            logging.error(str(datetime.now())+" "+str(err))
+                            traceback.print_exc(file = open(init_config.get('logging','errorlog'),'a')) 
+             
             except Exception, err:
                 print 'Some error'
                 logging.error(str(datetime.now())+" "+str(err))
@@ -121,12 +159,13 @@ class Archiver:
 
    
    
-    def process_hashtag(self,message):
+    def process_hashtag(self,message,post,code,c_update):
                     init_config = self.init_config
                     ind = 0 
                     kippt_init = Kippt(username = init_config.get('kippt','username'), api_token = init_config.get('kippt','apitoken'))
                     self.hashtag = [i  for i in message.split() if i.startswith("#") ]
-                    if not self.hashtag: 
+                    if not self.hashtag:
+                      self.check_comment_hashtag(post,code,c_update) 
                       self.hashtag.append ('Archive')
                     #Strip down the hashes ! 
                     else:
@@ -168,3 +207,31 @@ class Archiver:
         resp_title=resp_jsdata.get('title').encode('ascii','ignore').replace('"','')
         resp_notes=resp_jsdata.get('notes').encode('ascii','ignore').replace('"','') 
         cursor.execute("""SELECT InsertLink(%s, %s, %s, %s) """,(resp_url, resp_title, resp_notes, post_id ))
+
+
+
+    # try to build hashtag list from comments if post don't include hashtag 
+    def check_comment_hashtag(self,post,code,c_update):
+          ind =0
+          desc_trim = re.compile(r'[\n\r\t]')  
+          if ('comments' in post and post.get('comments').get('data') != None):
+                      for comment in post.get('comments').get('data'):
+                          mess = comment.get('message').encode('ascii','ignore').replace('"','')
+                          mess = desc_trim.sub(' ',mess) 
+                          hash_tag = [i  for i in mess.split() if i.startswith("#") ]
+                          if (hash_tag):
+                             self.hashtag = hash_tag
+                             #strip down #
+                             for i in self.hashtag:  
+                                 self.hashtag[ind] = re.sub(r'#','',i)   
+                                 self.hashtag[ind] = self.hashtag[ind].lower()
+                                 ind+=1
+                             
+                             if (code == 2 and c_update >0):
+                                #print "processed update" 
+                                self.update =1    
+                             return    
+                                   
+               
+       
+

@@ -13,7 +13,7 @@ def main():
         init_config.read(sys.argv[1])
         fb_url = init_config.get('group','url')
     else:
-        print 'Correct use: Init_archive <path to default properties file>'
+        print 'Correct usage: Init_archive <path to default properties file>'
         return
     jsdata = urllib2.urlopen(fb_url).read()
     jsondata = json.loads(jsdata)
@@ -21,7 +21,7 @@ def main():
         Archiver(sys.argv[1]).process_data(fb_url)
         jsdata = urllib2.urlopen(fb_url).read()
         jsondata =  json.loads(jsdata)
-        #paging attribute used to go to next page  
+        #paging attribute used to go to next page
         fb_url = jsondata.get('paging').get('next')
         print fb_url
    
