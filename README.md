@@ -1,7 +1,7 @@
 FB_group_archiver
 ==================
-#Example <a href="https://www.facebook.com/groups/jiitlug/" target ='_blank'>Jiit osdc group</a>
-<a href="#" target ='_blank'> Archive </a>  
+Example <a href="https://www.facebook.com/groups/jiitlug/" target ='_blank'>Jiit osdc group</a>
+<a href="https://ww.kippt.com/Osdc_JIIT" target ='_blank'> Archive </a>  
 
 It is a utility to archive post from Facebook open group 
 
@@ -37,9 +37,9 @@ Issues
 
  see the date issue
  
- Currently not stroing the cooment links, can be done easily
+ Currently not storing the cooment links, can be done easily
 
- Currently not stroing comments  
+ Currently not storing comments  
 
  
  
