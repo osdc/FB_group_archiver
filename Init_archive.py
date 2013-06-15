@@ -21,17 +21,14 @@ def main():
     jsdata = urllib2.urlopen(fb_url).read()
     jsondata = json.loads(jsdata)
     while(fb_url is not None):
-        #Archiver(sys.argv[1]).process_data(fb_url)
         jsdata = urllib2.urlopen(fb_url).read()
         jsondata =  json.loads(jsdata)
         #paging attribute used to go to next page
         fb_url = jsondata.get('paging').get('next')
         url_fb.append(fb_url)
  except Exception , err:
-    url_fb.pop()   
-    for url in url_fb:
-     print url
- 
+    print str(len(url_fb)) + " :Length of json pages of group! Sit back and relax its gonna take some time an hour or so " 
+    
 # Archive post in reverse order so the new link post to db and kipppt first
  fb_url = url_fb.pop()
  jsdata = urllib2.urlopen(fb_url).read()

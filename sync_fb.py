@@ -87,6 +87,8 @@ class Archiver:
                       comment_update = cursor.fetchone()
                       if(comment_update !=None):
                        c_update = comment_update[0] - previous_comment[0]
+                       if(c_update >0 or c_update <0):
+                          c_update = 1   
                     #to get the list_uri of kippt list   
                     list_uri = self.process_hashtag(message,post,code[0],c_update)
                     # code[0] ==1 indicates no duplicate entry is posted in DB , instead Update the likes and comment count , see DB function structure
