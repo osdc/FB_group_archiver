@@ -41,5 +41,5 @@ Issues
 
  Currently not storing comments  
 
- Removing duplicate links bBy comparing lists 
+ Removing duplicate links By comparing lists 
  
