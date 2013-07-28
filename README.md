@@ -1,7 +1,7 @@
 FB_group_archiver
 ==================
 Example <a href="https://www.facebook.com/groups/jiitlug/" target ='_blank'>Jiit osdc group</a>
-<a href="https://kippt.com/Osdc_JIIT" target ='_blank'> Archive </a>  
+<a href="https://kippt.com/Osdc_JIIT/lists" target ='_blank'> Archive </a>  
 
 It is a utility to archive post from Facebook open group 
 
